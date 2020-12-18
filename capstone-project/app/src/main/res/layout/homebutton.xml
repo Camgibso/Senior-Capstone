@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thankyou">
+
+        <TextView
+                android:id="@+id/txtView313"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="85dp"
+
+                android:fontFamily="@font/open_sans_italic"
+                android:text="Home"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textSize="22sp"/>
+           <Button
+               android:id="@+id/homePress"
+               android:layout_width="wrap_content"
+               android:layout_height="220dp"
+               android:layout_below="@+id/textView4"
+               android:layout_centerHorizontal="true"
+               android:layout_marginStart="190dp"
+               android:layout_marginTop="182dp"
+               android:background="@drawable/hom_button"
+               android:fontFamily="@font/open_sans_italic"
+               android:textColor="@color/Blue"
+               android:textSize="18sp"
+               android:typeface="sans" />
+            <TextView
+                android:id="@+id/textView312"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/homePress"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="85dp"
+                android:fontFamily="@font/open_sans_italic"
+                android:gravity="center"
+                android:text="Press for turn on/turn off"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/White"
+                android:textSize="22sp" />
+
+
+
+</RelativeLayout>

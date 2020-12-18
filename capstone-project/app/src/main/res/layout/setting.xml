@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thankyou">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="85dp"
+
+            android:fontFamily="@font/open_sans_italic"
+            android:gravity="center"
+            android:text="Setting"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    <Switch
+        android:id="@+id/switchemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView14"
+
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="85dp"
+        android:background="@color/White"
+        android:fontFamily="@font/open_sans_italic"
+        android:text="   Email Alert"
+
+        android:textSize="22sp" />
+
+    <Switch
+        android:id="@+id/switchphone"
+        android:layout_below="@+id/switchemail"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="  Phone Alert"
+        android:textSize="22sp"
+        android:background="@color/White"
+        />
+
+
+
+</RelativeLayout>

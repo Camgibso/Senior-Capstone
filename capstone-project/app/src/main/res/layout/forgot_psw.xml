@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/round"
+
+        android:fontFamily="@font/open_sans"
+        android:text="RESET"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="72dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="291dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="106dp"
+        android:fontFamily="@font/open_sans_light"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter your Email address"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/White"
+        android:textColorHint="@color/Blue" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_italic"
+        android:text="Forgot your Password?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        android:textColor="@color/White"
+        android:textSize="22sp"
+        android:layout_marginLeft="72dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/round"
+
+        android:text="Cancel"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:layout_marginLeft="72dp" />
+
+
+</RelativeLayout>
