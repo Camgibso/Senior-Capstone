@@ -4,8 +4,12 @@ Our team project was to develop a Rasberry Pi Security Camera with Facial Recogn
 The attached PDF has contains the project documentation:
 https://github.com/Camgibso/Senior-Capstone/blob/main/Capstone_Final.pdf
 
+
+
+-----------------------------------------------------------------------------------
 README Preview:
 Pictures of our hardware device, camera, motion detector and homeade stand:
+
 
 
 ![Pictures/pi1.png)](Pictures/pi1.png) ![Pictures/pi2.png)](Pictures/pi2.png)
